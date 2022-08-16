@@ -95,7 +95,7 @@ background-size: 100%;}
 #lets_make ul .reflect{transform: rotate(180deg);}
 #lets_make p{text-align: center;
     padding-top: 20px;} 
- #lets_make h1{font-family:'Black Han Sans' ;
+ #lets_make h1{font-family: 'Black Han Sans';
               font-size: 23px;
               font-weight: 700px
               ;
@@ -106,7 +106,7 @@ background-size: 100%;}
               color: black;
               font-size: 15px;
               text-align: center;
-              line-height: 180%;
+              line-height: 160%;
               padding-top: 50px;
               margin-bottom: 30px;}    
     
@@ -351,11 +351,13 @@ background-size: 100%;}
 #find_your_songs .text1{padding-bottom: 20px;} 
 #find_your_songs .text2{padding-bottom: 40px;}
 #find_your_songs h3{color: #ea6b0e;
-                   padding-bottom: 50px;
+                   padding-bottom: 40px;
+                   font-family:'Black Han Sans' ;
                    font-size: 23px;}
 
 #find_your_songs h5{font-family: 'NanumGothicLight';
                     font-size: 14px;
+                    line-height: 160%;
                    color: black;}
 #find_your_songs_inner{width: 1374px;
                        margin: 0 auto;
@@ -461,6 +463,7 @@ table input{border: none;
              outline-style: none;
            }
 table #placeholder_height{height: 30px;}
+#placeholder_height::placeholder{color:#9cf967; font-family: 'Black Han Sans'}
 
 /*footer*/
 #footer{background-color: black;
